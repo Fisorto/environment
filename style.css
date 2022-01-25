@@ -1,0 +1,6 @@
+#screen {
+    border:1px solid black;
+    position: absolute;
+   
+    left: 400px;
+}
