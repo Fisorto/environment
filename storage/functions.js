@@ -32,3 +32,22 @@ function randomNumber (n){
     return Math.floor(Math.random() * n);
 }
 
+function choise(n){
+    if(n === 1){
+        return "bental";
+    } else {
+        return "pelagial";
+    }
+}
+
+function coordX(){
+    return  Math.floor(Math.random() * 1100);
+}
+
+function coordY(type){
+ if (type === "bental"){
+    return  540;
+ } else if (type === "pelagial") {
+    return Math.floor(Math.random() * 140) + 200;
+ }
+}
